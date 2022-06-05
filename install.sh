@@ -15,6 +15,7 @@ apt-get install -y openjdk-18-jdk-headless
 
 # Get a version of gradle on
 # https://askubuntu.com/questions/932083/how-do-i-upgrade-gradle
+echo "installing gradle"
 add-apt-repository ppa:cwchien/gradle -y
 apt-get -y update
 apt-get install -y gradle
