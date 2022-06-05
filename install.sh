@@ -1,6 +1,10 @@
 #Do this first!
 #curl -O -J  https://raw.githubusercontent.com/ollyjshaw/setup_dev_box/main/install.sh
 
+#update first
+apt-get -y update
+apt-get -y upgrade
+
 #For pyenv
 echo "installing stuff for pyenv"
 apt-get install -y git python-pip make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev curl
