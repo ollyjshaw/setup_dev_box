@@ -2,6 +2,7 @@
 #curl -O -J  https://raw.githubusercontent.com/ollyjshaw/setup_dev_box/main/install.sh
 
 set -e
+export DEBIAN_FRONTEND=noninteractive
 
 #update first
 echo "updating first"
